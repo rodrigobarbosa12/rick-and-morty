@@ -1,0 +1,38 @@
+.scrollbar
+{
+    position: relative;
+	  overflow-y: auto;
+}
+
+.scrollbar:hover
+{
+    /* -webkit-animation: slide-in 3s forwards;
+    animation: slide-in 3s forwards; */
+	  overflow-y: auto;
+    visibility: visible;
+}
+
+#scroll-component::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: 'transparent';
+  background-color: 'transparent';
+}
+
+#scroll-component::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: 'transparent';
+    margin-left: 10px;
+}
+
+
+#scroll-component::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: 'transparent';
+}
+
+.scrollbar:hover::-webkit-scrollbar-thumb
+{
+    background-image: -webkit-gradient(linear,40% 0%, 75% 84%, from(#eff0f5), to(#eff0f5), color-stop(.6,#eff0f5));
+}

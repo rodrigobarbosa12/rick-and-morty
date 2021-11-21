@@ -1,0 +1,1 @@
+var BootstrapSelectsplitter={init:function(){$("#m_selectsplitter_1, #m_selectsplitter_2").selectsplitter()}};jQuery(document).ready(function(){BootstrapSelectsplitter.init()});
